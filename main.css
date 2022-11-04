@@ -1,0 +1,29 @@
+html{
+  font-family: Arial, sans-serif;
+}
+.container{
+  width: 55em;
+  max-width: calc(90vw - 1em);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  display: grid;
+  grid-gap: 1em;
+}
+.container > *{
+  border-width: 0.3em;
+  padding: 1em;
+  border-style: double;
+
+}
+.title > div{
+  font-size: 2em;
+  font-variant: small-caps;
+  text-align: center;
+
+}
+.content{
+  border-style: solid;
+  border-width: 0.1em;
+
+}
